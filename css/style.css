@@ -25,3 +25,11 @@ iframe {
     padding: 50px;
     border-radius: 0px;
 }
+
+#iframe2 {
+    width: 900px;
+    height: 506px; /* Old 596px */
+    border: 0px;
+    border-radius: 0px;
+    padding-top: 1000px;
+}
