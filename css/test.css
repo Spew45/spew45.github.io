@@ -7,11 +7,19 @@ embed {
     height: 800px;
     width: 300px;
 }
-iframe {
+id.iframe {
+    width: 900px;
+    height: 600px; /* Old 596px */
     border: 0px;
     border-radius: 0px;
     margin-top: 20px;
-}
+} 
+@media screen and (min-width: 800px) {
+    id.frame {
+      width: 40px;
+      height: 40px
+    }
+  }
 .border {
     position: absolute;
     top: 0px;
@@ -22,12 +30,4 @@ iframe {
     border: none;
     padding: 50px;
     border-radius: 0px;
-}
-
-#iframe2 {
-    width: 900px;
-    height: 596px; /* Old 596px */
-    border: 0px;
-    border-radius: 0px;
-    padding-top: 200px;
 }
