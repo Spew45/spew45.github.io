@@ -7,14 +7,14 @@ embed {
     height: 800px;
     width: 300px;
 }
-iframe {
+iframe /* Chromebook 3:2 Ratio*/{
     width: 900px;
     height: 600px; /* Old 596px */
     border: 0px;
     border-radius: 0px;
     margin-top: 20px;
 } 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 1350px) /* Desktop Computers*/ {
     iframe {
         width: 1200px;
         height: 800px; /* Old 596px */
@@ -25,6 +25,17 @@ iframe {
     embed {
         height: 1150px;
         width: 400px;
+    }
+    .border {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #000;
+        width: 90px;
+        height: 1340px;
+        border: none;
+        padding: 50px;
+        border-radius: 0px;
     }
   }
 .border {
