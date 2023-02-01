@@ -14,7 +14,7 @@ iframe /* Chromebook 3:2 Ratio*/{
     border-radius: 0px;
     margin-top: 20px;
 } 
-@media screen and (min-width: 1350px) /* Desktop Computers*/ {
+@media screen and (min-width: 1400px) /* Desktop Computers*/ {
     iframe {
         width: 1200px;
         height: 800px; /* Old 596px */
