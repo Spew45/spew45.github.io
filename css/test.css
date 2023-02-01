@@ -17,7 +17,7 @@ iframe {
 @media screen and (min-width: 1350px) {
     iframe {
         width: 1200px;
-        height: 900px; /* Old 596px */
+        height: 800px; /* Old 596px */
         border: 0px;
         border-radius: 0px;
         margin-top: 20px;
