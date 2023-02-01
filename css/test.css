@@ -22,6 +22,10 @@ iframe {
         border-radius: 0px;
         margin-top: 20px;
     }
+    embed {
+        height: 1150px;
+        width: 400px;
+    }
   }
 .border {
     position: absolute;
