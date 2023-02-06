@@ -51,11 +51,12 @@ iframe /* Chromebook 3:2 Ratio*/{
 }
 .dropbtn {
   background-color: #04AA6D;
-  border-radius: 15px;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
+  cursor: pointer;
+  border-radius: 10px
 }
 
 .dropdown {
@@ -66,7 +67,8 @@ iframe /* Chromebook 3:2 Ratio*/{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  right: 0;
+  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -79,9 +81,7 @@ iframe /* Chromebook 3:2 Ratio*/{
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
-
+.dropdown-content a:hover {background-color: #f1f1f1;}
 .dropdown:hover .dropdown-content {display: block;}
-
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
