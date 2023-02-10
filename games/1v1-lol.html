@@ -4,12 +4,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <script src="/js/main.js"></script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 </style>
-
 
 <title>Classes</title>
 
@@ -17,10 +18,19 @@
 
 <div class="border"></div>
 
+<div class="dropdown" style="float:right;">
+  <button class="dropbtn"><i class="fa fa-caret-down"></i></button></button>
+  <div class="dropdown-content">
+    <a onclick="openFullscreen();" style="cursor: pointer; font-family: 'Poppins', sans-serif; text-decoration: none;">Fullscreen</a>
+    <a onclick="openGame();" style="cursor: pointer; font-family: 'Poppins', sans-serif; text-decoration: none;" target="_parent">Cloak Link</a>
+    <a href="https://www.google.com/?safe=active&ssui=on" target="_parent" style="font-family: 'Poppins', sans-serif;">Panic</a>
+  </div>
+</div>
+
 <p align="center"><iframe src="https://1v1.lol/" id="iframe"></iframe></p>
+
+<script src="/js/test.js"></script>
 
 <div class="text">
 <embed src="/dump/text.html">
 </div>
-
-<b><a onclick="openGame();" style="cursor: pointer; position: absolute; top: 15px; right: 25px; font-family: 'Poppins', sans-serif; font-size: 24px; color: #fff; text-decoration: none;" target="_parent">Cloak Link</a>
