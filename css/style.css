@@ -5,7 +5,7 @@
 }
 embed {
     height: 1200px;
-    width: 300px;
+    width: 400px;
 }
 iframe /* Chromebook 3:2 Ratio*/{
     width: 900px;
@@ -24,7 +24,7 @@ iframe /* Chromebook 3:2 Ratio*/{
     }
     embed {
         height: 1500px;
-        width: 400px;
+        width: 500px;
     }
     .border {
         position: absolute;
