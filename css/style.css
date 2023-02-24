@@ -6,6 +6,7 @@
 embed {
     height: 1250px;
     width: 400px;
+    overflow: hidden;
 }
 iframe /* Chromebook 3:2 Ratio*/{
     width: 900px;
@@ -25,6 +26,7 @@ iframe /* Chromebook 3:2 Ratio*/{
     embed {
         height: 1400px;
         width: 500px;
+        overflow: hidden;
     }
     .border {
         position: absolute;
