@@ -88,10 +88,6 @@ div.images {
   margin: auto;
 }
 
-a{
-  text-decoration: none;
-}
-
 .dropdown-content a:hover {background-color: #f1f1f1;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #05263b;}
