@@ -86,6 +86,9 @@ iframe /* Chromebook 3:2 Ratio*/{
 div.images {
   max-width: 70%;
   margin: auto;
+}
+
+a{
   text-decoration: none;
 }
 
