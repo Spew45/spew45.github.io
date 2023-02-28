@@ -14,7 +14,6 @@ iframe /* Chromebook 3:2 Ratio*/{
     border: 0px;
     border-radius: 0px;
     margin-top: 20px;
-    border-bottom-right-radius: 25px;
 } 
 @media screen and (min-width: 1400px) /* Desktop Computers*/ {
     iframe {
@@ -23,7 +22,6 @@ iframe /* Chromebook 3:2 Ratio*/{
         border: 0px;
         border-radius: 0px;
         margin-top: 20px;
-        border-bottom-right-radius: 25px;
     }
     embed {
         height: 1600px;
@@ -40,6 +38,7 @@ iframe /* Chromebook 3:2 Ratio*/{
         border: none;
         padding: 50px;
         border-radius: 0px;
+        border-bottom-right-radius: 25px;
     }
   }
 .border {
@@ -52,6 +51,7 @@ iframe /* Chromebook 3:2 Ratio*/{
     border: none;
     padding: 50px;
     border-radius: 0px;
+    border-bottom-right-radius: 25px;
 }
 .dropbtn {
   background-color: #001320;
