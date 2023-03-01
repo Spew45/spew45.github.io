@@ -104,3 +104,17 @@ img {
 img:hover {
   transform: scale(0.86);
 }
+
+.header {
+  padding: 0.5%;
+  text-align: center;
+  background: #004270;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #013052;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
