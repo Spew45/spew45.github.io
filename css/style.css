@@ -61,9 +61,6 @@ iframe /* Chromebook 3:2 Ratio*/{
   border: none;
   cursor: pointer;
   border-radius: 10px;
-  position: absolute;
-  top: 15px;
-  right: 15px;
 }
 
 .dropdown {
