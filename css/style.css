@@ -128,3 +128,5 @@ body {
   overflow-x: hidden;
   background: #001b2e;
 }
+
+.show {display: block;}
