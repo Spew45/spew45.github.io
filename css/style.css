@@ -118,7 +118,7 @@ img:hover {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: 10px solid #002138;
+  border-bottom: 10px solid #002138;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
