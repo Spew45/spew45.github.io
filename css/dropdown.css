@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.dropdown{
+  margin-right: 50px;
+}
+
+.dropdown:last-child{
+  margin-right: 0;
+}
+
+.dropdown button{
+  border: 0;
+  background: #dc555f;
+  color: #fff;
+  padding: 16px 28px;
+  width: 225px;
+  height: 50px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 0.5s ease;
+}
+
+.dropdown button:hover,
+.dropdown button.active{
+  background: #9e3c48;
+}
+
+.dropdown button .icon{
+  display: flex;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.dropdown ul{
+  display: none;
+  width: 225px;
+  margin-top: 35px;
+  background: #fff;
+  border-radius: 3px;
+  position: relative;
+}
+
+.dropdown ul li a{
+  display: flex;
+  padding: 16px 20px;
+  height: 50px;
+  color: #adadad;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.dropdown ul li a .icon{
+  display: flex;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.dropdown ul li a:hover{
+  background: #f0f0f0;
+  color: #dc555f;
+}
+
+.dropdown ul li:first-child a{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.dropdown ul li:last-child a{
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.dropdown ul:before{
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 15px solid;
+  border-color: transparent transparent #fff transparent;
+  z-index: 1;
+}
+
+.dropdown.dropdown_desktop .icon{
+  display: none;
+}
+
+.dropdown.dropdown_desktop ul li a{
+  justify-content: center;
+}
+
+.dropdown.dropdown_mobile button,
+.dropdown.dropdown_mobile ul{
+  width: 75px;
+}
+
+.dropdown.dropdown_mobile ul li a{
+  padding: 16px 28px
+}
+
+.dropdown.dropdown_mobile .icon{
+  margin: 0;
+  display: inline-block;
+}
+.dropdown.dropdown_mobile .text{
+  display: none;
+}
+
+.dropdown button.active + ul{
+  display: block;
+}
