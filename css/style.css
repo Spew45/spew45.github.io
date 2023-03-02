@@ -71,7 +71,7 @@ iframe /* Chromebook 3:2 Ratio*/{
 .dropdown {
   position: relative;
   display: inline-block;
-  margin-top: 15px;
+  margin-top: -50px;
 }
 
 .dropdown-content {
