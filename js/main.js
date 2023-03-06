@@ -1,3 +1,6 @@
+window.open("https://spew45.github.io/dump/website-not-working.html", "_self")
+
+
 function openGame() {
     var win = window.open()
     var url = "https://spew45.github.io"
