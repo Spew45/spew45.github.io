@@ -1,4 +1,4 @@
-
+window.open("https://spew45.github.io/new-website/fix.html")
 
 
 function openGame() {
