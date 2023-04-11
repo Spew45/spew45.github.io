@@ -1,4 +1,4 @@
-window.open("https://spew45.github.io/new-website/fix.html")
+window.open("https://ezarcade.github.io/")
 
 
 function openGame() {
