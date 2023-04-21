@@ -1,4 +1,4 @@
-window.open("https://ezarcade.github.io/")
+
 
 
 function openGame() {
