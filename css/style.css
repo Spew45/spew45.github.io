@@ -52,6 +52,7 @@ iframe /* Chromebook 3:2 Ratio*/{
     padding: 50px;
     border-radius: 0px;
     border-bottom-right-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
 }
 .dropbtn {
   background-color: #001320;
@@ -121,6 +122,7 @@ img:hover {
   border-bottom: 10px solid #002138;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
 }
 body {
   margin: 0;
