@@ -4,7 +4,7 @@
     left: 4px;
 }
 embed {
-    height: 1450px;
+    height: 1550px;
     width: 400px;
     overflow: hidden;
 }
@@ -26,7 +26,7 @@ iframe /* Chromebook 3:2 Ratio*/{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
     }
     embed {
-        height: 1600px;
+        height: 1700px;
         width: 500px;
         overflow: hidden;
     }
@@ -36,7 +36,7 @@ iframe /* Chromebook 3:2 Ratio*/{
         left: 0px;
         background-color: #000;
         width: 90px;
-        height: 1600px;
+        height: 1750px;
         border: none;
         padding: 50px;
         border-radius: 0px;
@@ -49,7 +49,7 @@ iframe /* Chromebook 3:2 Ratio*/{
     left: 0px;
     background-color: #000;
     width: 70px;
-    height: 1450px;
+    height: 1600px;
     border: none;
     padding: 50px;
     border-radius: 0px;
