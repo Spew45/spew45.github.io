@@ -15,6 +15,7 @@ iframe /* Chromebook 3:2 Ratio*/{
     border-radius: 0px;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
+    border-radius: 40px;
 } 
 @media screen and (min-width: 1400px) /* Desktop Computers*/ {
     iframe {
@@ -24,6 +25,7 @@ iframe /* Chromebook 3:2 Ratio*/{
         border-radius: 0px;
         margin-top: 20px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
+        border-radius: 40px;
     }
     embed {
         height: 1700px;
