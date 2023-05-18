@@ -135,3 +135,23 @@ body {
 }
 
 .show {display: block;}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
+}
+
+.button1 {
+  background-color: #d4a373;
+}
