@@ -136,6 +136,8 @@ body {
 
 .show {display: block;}
 
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+
 .button {
   border: none;
   color: white;
@@ -146,7 +148,7 @@ body {
   cursor: pointer;
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 .button1 {
