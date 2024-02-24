@@ -128,6 +128,22 @@ img:hover {
   border-bottom-right-radius: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
 }
+
+.newsHeader {
+  padding: 0.5%;
+  text-align: center;
+  background: #013052;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 100px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
+}
 body {
   margin: 0;
   overflow-x: hidden;
