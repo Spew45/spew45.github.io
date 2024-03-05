@@ -1,5 +1,5 @@
 Update 0.1.3
-    Added 10 Games:
+    Added Games:
         - Backflip 3D
         - Car Simulator
         - Gimme The Airpod
@@ -8,6 +8,7 @@ Update 0.1.3
         - Stickman Dismount
         - Temple Run 2
         - The Heist
+        - Just Fall
     Fixed:
         - Make it Meme
         - Krunker
