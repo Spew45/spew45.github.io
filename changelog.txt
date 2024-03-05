@@ -10,3 +10,4 @@ Update 0.1.3
         - The Heist
     Fixed:
         - Make it Meme
+        - Krunker
