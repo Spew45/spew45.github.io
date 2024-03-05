@@ -8,5 +8,5 @@ Update 0.1.3
         - Stickman Dismount
         - Temple Run 2
         - The Heist
-        - Tunnelz
-        - X-Trial Racing
+    Fixed:
+        - Make it Meme
