@@ -4,7 +4,7 @@
     left: 4px;
 }
 embed {
-    height: 1850px;
+    height: auto+10vh;
     width: 155px;
     overflow: hidden;
 }
