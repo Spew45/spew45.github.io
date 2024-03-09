@@ -20,7 +20,7 @@ iframe /* Chromebook 3:2 Ratio*/{
 @media screen and (min-width: 1400px) /* Desktop Computers*/ {
     iframe {
         width: 50%;
-        height: 30vh; /* Old 596px */
+        height: 70vh; /* Old 596px */
         border: 0px;
         border-radius: 0px;
         margin-top: 20px;
