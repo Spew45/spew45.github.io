@@ -9,42 +9,14 @@ embed {
     overflow: hidden;
 }
 iframe /* Chromebook 3:2 Ratio*/{
-    width: 900px;
-    height: 600px; /* Old 596px */
+    width: 60%;
+    height: 80vh; /* Old 596px */
     border: 0px;
     border-radius: 0px;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
     border-radius: 40px;
 } 
-@media screen and (min-width: 1400px) /* Desktop Computers*/ {
-    iframe {
-        width: 60%;
-        height: 80vh; /* Old 596px */
-        border: 0px;
-        border-radius: 0px;
-        margin-top: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
-        border-radius: 40px;
-    }
-    embed {
-        height: 2000px;
-        width: 300px;
-        overflow: hidden;
-    }
-    .border {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        background-color: #000;
-        width: 90px;
-        height: 1750px;
-        border: none;
-        padding: 50px;
-        border-radius: 0px;
-        border-bottom-right-radius: 25px;
-    }
-  }
 .border {
     position: absolute;
     top: 0px;
