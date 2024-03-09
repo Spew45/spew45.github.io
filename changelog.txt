@@ -12,3 +12,8 @@ Update 0.1.3
     Fixed:
         - Make it Meme
         - Krunker
+
+Update 0.1.4
+    Added Games:
+        - Infinite Craft
+        - Neal.fun
