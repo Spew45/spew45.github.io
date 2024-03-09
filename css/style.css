@@ -10,7 +10,7 @@ embed {
 }
 iframe /* Chromebook 3:2 Ratio*/{
     width: 60%;
-    height: 80vh; /* Old 596px */
+    height: 80vh;
     border: 0px;
     border-radius: 0px;
     margin-top: 20px;
