@@ -4,7 +4,7 @@
     left: 4px;
 }
 embed {
-    height: 240vh;
+    height: 285vh;
     width: 100%;
     overflow: hidden;
 }
@@ -23,7 +23,7 @@ iframe /* Chromebook 3:2 Ratio*/{
     left: 0px;
     background-color: #000;
     width: 70px;
-    height: 215vh;
+    height: 265vh;
     border: none;
     padding: 50px;
     border-radius: 0px;
