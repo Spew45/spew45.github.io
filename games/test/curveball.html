@@ -1,106 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/dropdown.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <script src="/js/main.js"></script>
-    <script src="/js/dropdown.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
-        body {
-            display: flex;
-            font-family: 'Poppins', sans-serif;
-            background-color: #001b2e;
-            color: white;
-            margin: 0;
-        }
-        .sidebar {
-            width: 200px;
-            background-color: #002b36;
-            padding: 10px;
-        }
-        .sidebar a {
-            display: block;
-            padding: 10px;
-            color: white;
-            text-decoration: none;
-        }
-        .sidebar a:hover {
-            background-color: #005f73;
-        }
-        .content {
-            flex: 1;
-            padding: 20px;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .border {
-            width: 100%;
-            height: 2px;
-            background-color: #fff;
-            margin: 10px 0;
-        }
-        .dropdown {
-            float: right;
-        }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        }
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-    </style>
-    <title>Classes</title>
-</head>
-<body>
+<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script src="/js/main.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-<div class="header">
-    <a href="https://spew45.github.io" style="text-decoration: none;">
-        <h1>Spew45</h1>
-    </a>
-    <p>The best website for all your unblocked games with over 50+ popular unblocked games!</p>
-</div>
+body {
+    background-color: #001b2e;
+}
+
+.border {
+    border: 2px solid #fff; /* Example border style */
+    border-radius: 15px; /* Adjust radius as needed */
+    padding: 20px; /* Example padding */
+    margin: 20px; /* Example margin */
+}
+
+.dropdown {
+    float: right;
+    border-radius: 5px; /* Rounded corners for dropdown */
+    overflow: hidden; /* Ensures dropdown content is rounded */
+}
+
+.dropdown-content {
+    border-radius: 5px; /* Rounded corners for dropdown items */
+}
+
+p {
+    margin: 20px;
+}
+
+#iframe {
+    border-radius: 15px; /* Rounded corners for the embedded SWF */
+    margin-top: 20px;
+}
+
+.text {
+    border-radius: 10px; /* Rounded corners for text container */
+    overflow: hidden; /* Ensures content is rounded */
+}
+</style>
+
+<title>Classes</title>
+
+<body>
 
 <div class="border"></div>
 
-<div class="sidebar">
-    <h2>Game Selection</h2>
-    <a href="#" onclick="loadGame('https://spew45.github.io/simple-games-assets/src/slope/')">Slope</a>
-    <a href="#" onclick="loadGame('https://spew45.github.io/simple-games-assets/src/retro-bowl/')">Retro Bowl</a>
-    <a href="#" onclick="loadGame('https://spew45.github.io/simple-games-assets/src/curveball/')">Curveball</a>
-    <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn"><span class="icon"><ion-icon class="i" name="settings-sharp"></ion-icon></span></button>
-        <div id="myDropdown" class="dropdown-content">
-            <a onclick="openFullscreen();" style="cursor: pointer;">Fullscreen</a>
-            <a onclick="openGame();" style="cursor: pointer;">Cloak Link</a>
-            <a href="https://www.google.com/?safe=active&ssui=on" target="_parent">Panic</a>
-        </div>
+<div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a onclick="openFullscreen();" style="cursor: pointer; font-family: 'Poppins', sans-serif; text-decoration: none;">Fullscreen</a>
+      <a onclick="openGame();" style="cursor: pointer; font-family: 'Poppins', sans-serif; text-decoration: none;" target="_parent">Cloak Link</a>
+      <a href="https://www.google.com/?safe=active&ssui=on" target="_parent" style="font-family: 'Poppins', sans-serif;">Panic</a>
     </div>
 </div>
 
-<div class="content">
-    <iframe src="https://spew45.github.io/simple-games-assets/src/slope/" id="iframe" style="width: 100%; height: 600px; border: 0;"></iframe>
+<p align="center">
+    <embed src="/swf/curveball.swf" style="width: 900px; height: 600px; border: 0px; border-radius: 15px;" id="iframe"></embed>
+</p>
+
+<script src="/js/test.js"></script>
+
+<div class="text">
+    <embed src="/dump/text.html">
 </div>
 
-<script>
-    function loadGame(url) {
-        document.getElementById('iframe').src = url;
-    }
-</script>
-
 </body>
-</html>
